@@ -1,0 +1,6 @@
+LS - mostra o que tem onde estamos
+LS -A - mostra os arquivos ocultos 
+CD nome do local - abre o diretório que colocamos
+PWD - mostra o caminho real que você está
+MKDIR ‘nome da pasta’ - cria a pasta
+GIT INIT . - vira uma pasta especial para versionar ela torna ela um repositório
