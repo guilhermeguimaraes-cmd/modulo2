@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <form action="#">
+        <label for="nome">Nome </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="exemplo@email.com">
+        <br><br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" placeholder="Senha com 8 caracteres" minlength="8" maxlength="12">
+        <br><br>
+        <label for="telefone">telefone</label>
+        <input type="tel" name="telefone" id="telefone">
+        <br><br>
+        <label for="data">Data Nascimento</label>
+        <input type="date" name="data" id="data">
+        <br><br>
+        <p>Escolha seu turno:</p>
+        <br>
+        <input type="radio" name="turno" id="manha">
+        <label for="manha">Manhã</label>
+        <input type="radio" name="turno" id="tarde">
+        <label for="tarde">Tarde</label>
+        <input type="radio" name="turno" id="noite">
+        <label for="noite">Noite</label>
+        <br><br>
+        <input type="checkbox" name="materia" id="quimica" value="quimica">
+        <label for="quimica">quimica</label>
+        <input type="checkbox" name="materia" id="matematica" value="matematica">
+        <label for="matematica">matematica</label>
+    </form>
+</body>
+</html>
