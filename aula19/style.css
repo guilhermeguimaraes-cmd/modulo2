@@ -1,0 +1,67 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f1f1f1;
+}
+
+.cabecalho{
+    background-color: #222;
+    color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+   display: flex;
+   gap: 20px; 
+}
+
+.menu a{
+   color: #f1f1f1;
+   text-decoration: none; 
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    transform: scale(1.20);
+    color: #1E90FF;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.produtos{
+    background-color: #FFF0F5;
+    width: 250px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.produtos p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.produtos button{
+    padding: 10px;
+    background-color: #222;
+    color: #f1f1f1;
+    cursor: pointer;
+}
